@@ -1,0 +1,63 @@
+contract SimpleStorage {
+  uint storedData;
+
+  function set(uint x) public {
+    storedData = x;
+  }
+
+  function get() public view returns (uint) {
+    return storedData;
+  }
+}
+
+// test >> simplestorage.js
+const SimpleStorage = artifacts.require("./SimpleStorage.sol");
+
+contract("SimpleStorage", accounts => {
+  it("...should store the value 89.", async () => {
+    const simpleStorageInstance = await SimpleStorage.deployed();
+
+    // Set value of 89
+    await simpleStorageInstance.set(89, { from: accounts[0] });
+
+    // Get stored value
+    const storedData = await simpleStorageInstance.get.call();
+
+    assert.equal(storedData, 89, "The value 89 was not stored.");
+  });
+});
+
+// test >> TestSimpleStorage.sol
+pragma solidity >=0.4.21 <0.7.0;
+
+import "truffle/Assert.sol";
+import "truffle/DeployedAddresses.sol";
+import "../contracts/SimpleStorage.sol";
+
+contract TestSimpleStorage {
+
+  function testItStoresAValue() public {
+    SimpleStorage simpleStorage = SimpleStorage(DeployedAddresses.SimpleStorage());
+
+    simpleStorage.set(89);
+
+    uint expected = 89;
+
+    Assert.equal(simpleStorage.get(), expected, "It should store the value 89.");
+  }
+
+}
+
+ 
+ "browserslist": {
+   "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+},

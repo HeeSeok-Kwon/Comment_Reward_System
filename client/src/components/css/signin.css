@@ -1,0 +1,24 @@
+/* ############################## login ############################## */
+.member_box {position: relative;display: block;width: 450px;padding: 163px 0px 70px 0px;margin: 0 auto; }
+.member_title {position: relative;display: block;margin-bottom: 30px}
+.member_title .btit {display: block;font-size: 30px;font-weight: 600;color: #333;line-height: 150%;}
+.member_title .stxt {display: block;font-size: 15px;color: #777}
+
+.member_form {position: relative;display: block;overflow: hidden;}
+.member_form ul {overflow: hidden; padding: 0px;}
+.member_form li {position: relative;display: block;padding: 10px 0;}
+.member_form li .form_title {display: block;;margin-bottom: 5px;color: #333;line-height: 20px;font-weight: 600}
+.member_form li input[type=text], .member_form li input[type=password] {box-sizing: border-box; width:100%; height: 50px; line-height: 50px;font-size: 14px;border: 1px solid #ddd;border-radius: 7.5px;background: #fff;}
+.member_form li .loginBtn {position: relative;display: block;background: #FFB6C1;color: #fff;font-weight: 600;height: 64px;line-height: 64px;font-size: 20px;text-align: center;border-radius: 7.5px; text-decoration: none; cursor: pointer;}
+.member_form li .loginBtn:hover {text-decoration: underline;}
+/* .member_form li input:disabled, .member_form li input:read-only {background: #f3f3f3;} */
+
+.membtBox {position: relative;display: block;overflow: hidden;text-align: center;margin-top: 10px}
+.membtBox ul {padding: 0px;}
+.membtBox li {position: relative;float: left;width: 50%; list-style: none;}
+.membtBox li:after {position: absolute;top: 6px;left: 0;width: 1px;height: 12px;background: #ccc;}
+.membtBox li a {display: inline-block;color: #777}
+.membtBox li:first-child {padding-left: 0}
+.membtBox li:first-child:after {display: none}
+
+/* ############################## login ############################## */

@@ -1,0 +1,14 @@
+.qna_box {position: relative;display: block;width: 1024px;padding: 163px 0px 70px 0px;margin: 0 auto;}
+.qna_top_wrap {position: relative;display: flex; justify-content: space-between; padding-bottom: 30px}
+.fixed-bar-box-shadow {box-sizing: border-box; border-bottom: 1px solid rgba(0,0,0,0.5);}
+.qna_top_wrap .qna_title {display: block;font-size: 30px;font-weight: 600;color: #333;line-height: 150%; margin-left: 20px;}
+
+.qna_box .board_top_asbtn {position: absolute; right: 20px; top:7.5px;}
+.qna_box .board_top_asbtn a {display: inline-block;padding: 0 30px;height: 40px;line-height: 40px;border-radius: 5px;color: #fff;font-weight: 600;background: #BA55D3; text-decoration: none;}
+
+.qna_bottom_wrap {position: relative; display: block; overflow: hidden; margin-top: 15px;}
+.qna_bottom_wrap ul {list-style: none;}
+.qna_bottom_wrap li {margin-right: auto; margin-left: auto; width: 386px; border: 1px solid #ddd; border-radius: 7px; overflow: hidden; box-sizing: border-box; margin-bottom: 20px;}
+.qna_bottom_wrap li a {display: block; padding: 20px; overflow: hidden; text-decoration: none;}
+.qna_bottom_wrap li .tit {display: block; overflow: hidden; margin: 5px 0 15px; font-weight: 600; color: #333; font-size: 17px; line-height: 140%; height: 25px; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+.qna_bottom_wrap li .contents {margin: 15px 0 5px; display: block; overflow: hidden; color: #555; line-height: 150%; height: 25px; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}

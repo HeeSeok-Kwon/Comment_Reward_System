@@ -1,0 +1,31 @@
+create database sol;
+
+CREATE TABLE users ( 
+user_id INT PRIMARY KEY AUTO_INCREMENT, 
+user_name VARCHAR(50) NOT NULL, 
+user_pw VARCHAR(500) NOT NULL, 
+user_addr VARCHAR(100) NOT NULL,
+reg_date DATETIME  DEFAULT NOW()
+) ENGINE=INNODB;
+
+CREATE TABLE text ( 
+text_id INT PRIMARY KEY AUTO_INCREMENT, 
+user_id INT,
+user_name VARCHAR(50),
+user_addr VARCHAR(100),
+title VARCHAR(50) NOT NULL, 
+content TEXT NOT NULL, 
+selectOK varbinary(1),
+reg_date DATETIME  DEFAULT NOW()
+) ENGINE=INNODB;
+
+CREATE TABLE comment ( 
+comment_id INT PRIMARY KEY AUTO_INCREMENT, 
+text_id INT, 
+user_id INT,
+user_name VARCHAR(50),
+user_addr VARCHAR(100),
+comment TEXT NOT NULL, 
+selectOK varbinary(1),
+reg_date DATETIME  DEFAULT NOW()
+) ENGINE=INNODB;

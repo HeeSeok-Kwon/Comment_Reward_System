@@ -1,0 +1,20 @@
+.qna_box {position: relative;display: block;width: 1024px;padding: 163px 0px 70px 0px;margin: 0 auto;}
+.qna_top_wrap {position: relative;display: flex; justify-content: space-between; padding-bottom: 30px}
+.fixed-bar-box-shadow {box-sizing: border-box; border-bottom: 1px solid rgba(0,0,0,0.5);}
+.qna_top_wrap .qna_title {display: block;font-size: 30px;font-weight: 600;color: #333;line-height: 150%; margin-left: 20px;}
+
+.qna_box .board_top_asbtn {position: absolute; right: 20px; top:7.5px;}
+.qna_box .board_top_asbtn button {display: inline-block;padding: 0 30px;height: 40px;line-height: 40px;border-radius: 5px;color: #fff;font-weight: 600;background: #BA55D3; text-decoration: none; border: none; cursor: pointer;}
+
+.qna_bottom_wrap {margin-top: 30px; display: block;}
+.botm1 {display: flex; justify-content: center;}
+.boardWriter {position: relative;display: block;overflow: hidden;}
+.boardWriter ul {overflow: hidden;}
+.boardWriter li {position: relative;display: block;padding: 15px 0; border: 0; width: auto;}
+.boardWriter li .title {display: block;;color: #333;line-height: 20px;font-weight: 600;font-size: 17px;margin-bottom: 7px}
+.boardWriter li input[type=text] {width: 500px; height: 50px;line-height: 50px;font-size: 14px;border: 1px solid #ddd;border-radius: 5px;background: #fff; border-radius: 7.5px;}
+.boardWriter li #content {width: 500px; display: block; color: #333;line-height: 20px;font-weight: 600;font-size: 17px;margin-bottom: 7px; border: 1px solid #ddd; border-radius: 5px; height: 150px;}
+
+.botm2 {margin-top: 10px; display: flex; justify-content: center;}
+.botm2 .board_bottom_asbtn {position: relative;}
+.botm2 .board_bottom_asbtn a {display: inline-block;padding: 0 30px;height: 40px;line-height: 40px;border-radius: 5px;color: #fff;font-weight: 600;background: #C0C0C0; text-decoration: none;}

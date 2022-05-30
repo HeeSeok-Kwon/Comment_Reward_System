@@ -1,0 +1,10 @@
+header {display: block; z-index: 100;}
+#fixed-bar {width:100%; background-color: #fff; position:fixed; top:0; left:0; right:0;}
+.fixed-bar-box-shadow {box-sizing: border-box; border-bottom: 1px solid rgba(0,0,0,0.04); width: 1024px; }
+#fixed-bar #fixed-bar-wrap {width: 1024px; margin:0 auto; padding: 16px 0; position:relative; display: flex; flex-direction: row; justify-content: space-between;}
+#fixed-bar #fixed-bar-wrap a { text-decoration: none; color: #000000;}
+#fixed-bar #fixed-bar-wrap a #fixed-bar-title {font-size: 25px; font-weight: bold;}
+#fixed-bar #fixed-bar-wrap .login-button {margin:0;width: 120px;height: 40px; background-color: #FFB6C1; border:1px solid #D1D3D8; box-sizing: border-box; border-radius: 6px; font-size: 0; background-color: transparent; cursor: pointer; padding-top: 7.5px; padding-left: 32.5px;}
+#fixed-bar #fixed-bar-wrap .login-button span.button-text {color:#000000; font-size: 16px; font-weight: bold;}
+#fixed-bar #fixed-bar-wrap .username {font-size: 20px;}
+#fixed-bar #fixed-bar-wrap .logout-button {margin: 0 10px; width: 100px; height: 40px; border:1px solid #D1D3D8; border-radius: 6px; cursor: pointer;}
