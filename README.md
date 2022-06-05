@@ -10,9 +10,9 @@
 ## Version
 - Solidity 버전
 ```
--	VScode 확장프로그램인 Solidity : 0.8.10
--	truffle compile : 0.6
--	truffle에 내장된 Solidity : v0.5.16 (solc-js)
+- VScode 확장프로그램인 Solidity : 0.8.10
+- truffle compile : 0.6
+- truffle에 내장된 Solidity : v0.5.16 (solc-js)
 ```
 - node 버전 : v14.19.0
 - npm 버전 : 6.14.16
