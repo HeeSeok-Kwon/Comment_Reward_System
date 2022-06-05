@@ -34,24 +34,37 @@ npm run start
 ```
 
 ### Details
-| ![space-1.jpg](http://www.storywarren.com/wp-content/uploads/2016/09/space-1.jpg) | 
+| ![채택 댓글 보상 시스템 전체 구조도](https://user-images.githubusercontent.com/80610295/172048508-6c3fa778-49af-41ae-abcc-80b3d44efb0a.png) | 
 |:--:| 
-| *Space* |
+| *채택 댓글 보상 시스템 전체 구조도* |
+<br />
+| ![질문 글 작성 이벤트 순서도](https://user-images.githubusercontent.com/80610295/172048518-77fda1f0-45ae-4afb-a3d5-fbae9b49739d.png) | 
+|:--:| 
+| *질문 글 작성 이벤트 순서도* |
+<br />
+| ![댓글 채택 이벤트 순서도](https://user-images.githubusercontent.com/80610295/172048524-41b8f6e3-c399-4d22-89a1-b83b0240fcec.png) | 
+|:--:| 
+| * 댓글 채택 이벤트 순서도* |
 
-![채택 댓글 보상 시스템 전체 구조도](https://user-images.githubusercontent.com/80610295/172048508-6c3fa778-49af-41ae-abcc-80b3d44efb0a.png)*채택 댓글 보상 시스템 전체 구조도*
-![질문 글 작성 이벤트 순서도](https://user-images.githubusercontent.com/80610295/172048518-77fda1f0-45ae-4afb-a3d5-fbae9b49739d.png "질문 글 작성 이벤트 순서도")
-
-![댓글 채택 이벤트 순서도](https://user-images.githubusercontent.com/80610295/172048524-41b8f6e3-c399-4d22-89a1-b83b0240fcec.png "댓글 채택 이벤트 순서도")
 
 ### Screen
 
-![회원가입 실행 화면](https://user-images.githubusercontent.com/80610295/172048574-9c582d4a-fbe3-4644-88fc-fe649d99157b.png "회원가입 실행 화면")
+| ![회원가입 실행 화면](https://user-images.githubusercontent.com/80610295/172048574-9c582d4a-fbe3-4644-88fc-fe649d99157b.png) | 
+|:--:| 
+| *회원가입 실행 화면* |
+<br />
+| ![질문 글 작성 화면](https://user-images.githubusercontent.com/80610295/172048577-4108f929-6559-4d65-8500-393942af532b.png) | 
+|:--:| 
+| *질문 글 작성 화면* |
+<br />
+| ![질문 글 작성 – Smart Contract 실행](https://user-images.githubusercontent.com/80610295/172048581-c2fc41d5-8fb4-4005-b553-5e8f7ffe3f15.png) | 
+|:--:| 
+| *질문 글 작성 – Smart Contract 실행* |
+<br />
+| ![댓글 채택 – Smart Contract 실행](https://user-images.githubusercontent.com/80610295/172048584-0f5479a5-f9cd-44f7-a93f-d3216faa9323.png) | 
+|:--:| 
+| *댓글 채택 – Smart Contract 실행* |
 
-![질문 글 작성 화면](https://user-images.githubusercontent.com/80610295/172048577-4108f929-6559-4d65-8500-393942af532b.png "질문 글 작성 화면")
-
-![질문 글 작성 – Smart Contract 실행](https://user-images.githubusercontent.com/80610295/172048581-c2fc41d5-8fb4-4005-b553-5e8f7ffe3f15.png "질문 글 작성 – Smart Contract 실행")
-
-![댓글 채택 – Smart Contract 실행](https://user-images.githubusercontent.com/80610295/172048584-0f5479a5-f9cd-44f7-a93f-d3216faa9323.png "댓글 채택 – Smart Contract 실행")
 
 ### Caution
 ```
