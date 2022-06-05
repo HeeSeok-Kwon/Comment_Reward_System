@@ -34,6 +34,13 @@ npm run start
 ```
 
 ### Details
+<figure style="display:block; text-align:center;">
+  <img src="https://user-images.githubusercontent.com/80610295/172048508-6c3fa778-49af-41ae-abcc-80b3d44efb0a.png"
+       style="margin:0px auto">
+  <figcaption style="text-align:center; font-size:15px; color:#808080">
+    채택 댓글 보상 시스템 전체 구조도
+  </figcaption>
+</figure>
 
 ![채택 댓글 보상 시스템 전체 구조도](https://user-images.githubusercontent.com/80610295/172048508-6c3fa778-49af-41ae-abcc-80b3d44efb0a.png)
 ![질문 글 작성 이벤트 순서도](https://user-images.githubusercontent.com/80610295/172048518-77fda1f0-45ae-4afb-a3d5-fbae9b49739d.png)
