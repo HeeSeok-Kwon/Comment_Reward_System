@@ -33,6 +33,13 @@ cd client
 npm run start
 ```
 
+## Caution
+```
+- 구글 브라우저에서 실행할 것
+- 구글 확장 프로그램인 Open link in same tab, pop-up as tab [Free] 과 MeatMask 충돌 현상 발생
+- Open link in same tab, pop-up as tab [Free] 작동 중지한 후, 프로젝트를 실행해야 함
+```
+
 ## Details
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80610295/172048508-6c3fa778-49af-41ae-abcc-80b3d44efb0a.png">
@@ -49,6 +56,8 @@ npm run start
   <p align="center">댓글 채택 이벤트 순서도</p>
 </p>
 
+<br />
+<br />
 
 ## Screen
 
@@ -71,13 +80,3 @@ npm run start
   <img src="https://user-images.githubusercontent.com/80610295/172048584-0f5479a5-f9cd-44f7-a93f-d3216faa9323.png">
   <p align="center">댓글 채택 – Smart Contract 실행</p>
 </p>
-
-
-## Caution
-```
-- 구글 브라우저에서 실행할 것
-- 구글 확장 프로그램인 Open link in same tab, pop-up as tab [Free] 과 MeatMask 충돌 현상 발생
-- Open link in same tab, pop-up as tab [Free] 작동 중지한 후, 프로젝트를 실행해야 함
-```
-
-
