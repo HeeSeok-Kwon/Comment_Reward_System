@@ -34,9 +34,9 @@ npm run start
 ```
 
 ### Details
-<p align="center">
-  <img src="https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true" alt="Sublime's custom image"/>
-</p>
+| ![space-1.jpg](http://www.storywarren.com/wp-content/uploads/2016/09/space-1.jpg) | 
+|:--:| 
+| *Space* |
 
 ![채택 댓글 보상 시스템 전체 구조도](https://user-images.githubusercontent.com/80610295/172048508-6c3fa778-49af-41ae-abcc-80b3d44efb0a.png)*채택 댓글 보상 시스템 전체 구조도*
 ![질문 글 작성 이벤트 순서도](https://user-images.githubusercontent.com/80610295/172048518-77fda1f0-45ae-4afb-a3d5-fbae9b49739d.png "질문 글 작성 이벤트 순서도")
