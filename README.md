@@ -1,13 +1,13 @@
 # Comment_Reward_System
 채택 댓글 보상 시스템 (금융블록체인서비스특론)
 
-### Tools
+## Tools
 - MAMP (MySQL)
 - Ganache
 - React
 - Node.js
 
-### Version
+## Version
 - Solidity 버전
 ```
 -	VScode 확장프로그램인 Solidity : 0.8.10
@@ -20,7 +20,7 @@
 - Ganache 버전 : v^7.1.0
 - Web3.js 버전 : v1.5.3
 
-### Commands
+## Commands
 - Back
 ```
 cd server
@@ -33,7 +33,7 @@ cd client
 npm run start
 ```
 
-### Details
+## Details
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80610295/172048508-6c3fa778-49af-41ae-abcc-80b3d44efb0a.png">
   <p align="center">채택 댓글 보상 시스템 전체 구조도</p>
@@ -49,7 +49,8 @@ npm run start
   <p align="center">댓글 채택 이벤트 순서도</p>
 </p>
 
-### Screen
+
+## Screen
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80610295/172048574-9c582d4a-fbe3-4644-88fc-fe649d99157b.png">
@@ -72,7 +73,7 @@ npm run start
 </p>
 
 
-### Caution
+## Caution
 ```
 - 구글 브라우저에서 실행할 것
 - 구글 확장 프로그램인 Open link in same tab, pop-up as tab [Free] 과 MeatMask 충돌 현상 발생
