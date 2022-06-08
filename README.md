@@ -30,12 +30,15 @@ node index.js
 - Front
 ```
 cd client
+npm install
 npm run start
 ```
 
 ## Caution
 ```
 - 구글 브라우저에서 실행할 것
+- MAMP, Ganache, MetaMask 실행 중인 상태에서 애플리케이션 실행해야 함
+- 질문 글 작성, 댓글 채택 시 나타나는 팝업 창에서 10초 정도 대기 후에 확인 버튼을 클릭해야 MetaMask가 정상적으로 작동함
 - 구글 확장 프로그램인 Open link in same tab, pop-up as tab [Free] 과 MeatMask 충돌 현상 발생
 - Open link in same tab, pop-up as tab [Free] 작동 중지한 후, 프로젝트를 실행해야 함
 ```
